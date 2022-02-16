@@ -1,0 +1,220 @@
+/* Used various w3schools links to learn what some parameters do
+and how they work to make things look good*/
+
+/*Also some parameters came from figma*/
+
+.header{
+    width: 900px;
+    height: 60px;
+    padding-left: 259px;
+    top: 124px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 70px;
+    line-height: 174px;
+    letter-spacing: -0.04em;
+
+    /* /Gray / White */
+
+    color: #FFFFFF;
+
+}
+
+.subheader{
+    position: relative;
+    width: 404px;
+    height: 174px;
+    left: 120px;
+    top: 30px;
+    padding-left:150px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 174px;
+    letter-spacing: -0.03em;
+
+    /* /Gray / White */
+
+    color: #FFFFFF;
+}
+
+.aboutlist{
+    padding-top:150px;
+    padding-left:280px;
+    width: 800px;
+
+    font-family: sans-serif;
+    font-size: 24px;
+    color:white;
+
+}
+
+.btnactive{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+    
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 3px;
+    top: 2px;
+    background-color: #6610F2;
+    outline-style: groove;
+
+    color: white;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.btninactive{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+    
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 3px;
+    top: 2px;
+    background-color: white;
+    outline-style: groove;
+
+    color:#6610F2;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.inactiveabout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+
+
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 115px;
+    top: 2px;
+    background-color: white;
+    outline-style: groove;
+
+    color:#6610F2;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.activeabout{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 115px;
+    top: 2px;
+    background-color:#6610F2;
+    outline-style: groove;
+
+    color: white;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.inactivecontact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+
+
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 267px;
+    top: 2px;
+    background-color: white;
+    outline-style: groove;
+
+    color:#6610F2;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.activecontact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    border-radius: 5px;
+
+
+    position: absolute;
+    width: 130;
+    height: 60px;
+    left: 267px;
+    top: 2px;
+    background-color:#6610F2;
+    outline-style: groove;
+
+    color:white;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.rectangle{
+    background-color: lightgray;
+    width:1920px;
+    height:65px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.rectangleb{
+    background-color:#6610F2;
+    width:1920px;
+    height:65px;
+    position:absolute;
+    top:850px;
+    left:0px;
+}
+
+.image{
+    position: absolute;
+    width: 755px;
+    height: 453px;
+    left: 280px;
+    top: 380px;
+}
+
+.text{
+    padding-top:110px;
+    padding-left:280px;
+    width: 800px;
+
+    font-family: sans-serif;
+    font-size: 22px;
+    color:white;
+}
+
+.button
+{
+    border-radius:5px;
+    color:white;
+    background-color:green;
+}
